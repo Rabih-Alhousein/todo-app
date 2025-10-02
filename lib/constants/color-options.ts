@@ -1,0 +1,22 @@
+export const COLOR_OPTIONS = [
+  {
+    name: "Blue",
+    hue: 239,
+    color: "oklch(0.65 0.125 239.5)",
+  },
+  { name: "Purple", hue: 275, color: "oklch(0.6 0.18 275)" },
+  { name: "Indigo", hue: 260, color: "oklch(0.6 0.18 260)" },
+  { name: "Cyan", hue: 200, color: "oklch(0.6 0.18 200)" },
+  { name: "Teal", hue: 180, color: "oklch(0.6 0.18 180)" },
+  { name: "Green", hue: 150, color: "oklch(0.6 0.18 150)" },
+  { name: "Lime", hue: 120, color: "oklch(0.6 0.18 120)" },
+  { name: "Yellow", hue: 90, color: "oklch(0.6 0.18 90)" },
+  { name: "Orange", hue: 40, color: "oklch(0.6 0.18 40)" },
+  { name: "Red", hue: 25, color: "oklch(0.6 0.18 25)" },
+  { name: "Rose", hue: 15, color: "oklch(0.6 0.18 15)" },
+  { name: "Pink", hue: 330, color: "oklch(0.6 0.18 330)" },
+  { name: "Magenta", hue: 315, color: "oklch(0.6 0.18 315)" },
+  { name: "Violet", hue: 290, color: "oklch(0.6 0.18 290)" },
+  { name: "Brown", hue: 30, color: "oklch(0.5 0.1 30)" },
+  { name: "Slate", hue: 220, color: "oklch(0.5 0.05 220)" },
+] as const;
